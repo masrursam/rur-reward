@@ -1,0 +1,32 @@
+tutorial running BOT di windows :
+===================================
+bikin folder baru di drive misalkan D:/masrur/
+download link ini https://drive.google.com/drive/folders/1ZXvUoTQR_egonMOh1PJKuqTxWf4DLyR5?usp=drive_link
+save hasil download di drive D:/masrur/
+extract file chromedriver-win64.rar, lalu isinya [3 file] copas ke c:/windows/
+install VC_redist.x64.exe
+install python-3.13.0-amd64.exe [saat installasi berjalan pertamakali klik checklist add path - lalu install]
+install PortableGit-2.48.1-64-bit.7z.exe
+copy paste folder Masrur-reward-bot ke dalam folder D:/masrur/PortableGit/
+buka folder D:/masrur/PortableGit/Masrur-reward-bot/
+edit file config.yaml [baris paling bawah]
+
+- email: emailmu [missal cena@light.my.id]
+    password: pasword_email [missal Isat123]
+    proxy: proxy [missal http://qicplmpc:hp0li4eham9c@107.172.163.27:6543] 
+- email: emailmu_2
+    password: pasword_email_2
+    proxy: proxy_2
+- dll
+
+buka folder D:/masrur/PortableGit
+klik kanan git-cmd.exe [run as administrator]
+ketik command CLI berikut, diikuti enter:
+cd Masrur-reward-bot
+pip install -r requirements.txt
+auto-schedule.py
+
+
+tutorial running BOT di Linux :
+===================================
+https://github.com/Riklando/MS-Rewards-Farmer/tree/patch-1
